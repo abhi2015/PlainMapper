@@ -42,4 +42,7 @@ class Robot
 		(arr[0] == @x  && arr[1] == @y) || (arr[0] == @next[0] && arr[1] == @next[1])
 	end
 
+	def getDirxn 
+		return @dirxn
+
 end

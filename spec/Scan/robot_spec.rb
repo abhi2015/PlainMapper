@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "Robot"  do 
+describe "Robot" do 
 
 	let(:robot1) {Robot.new(1,1,"NORTH")}
 
