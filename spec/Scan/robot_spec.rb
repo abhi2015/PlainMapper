@@ -7,16 +7,16 @@ describe "Robot" do
 	describe "defines the robot" do
 
 		it "changes direction of robot to north" do
-			expect(robot1.north).to eq([0,1]) 
+			expect(robot1.north).to eq("NORTH") 
 		end
 		it "changes direction of robot to south" do
-			expect(robot1.south).to eq([0,-1]) 
+			expect(robot1.south).to eq("SOUTH") 
 		end
 		it "changes direction of robot to east" do
-			expect(robot1.east).to eq([1,0]) 
+			expect(robot1.east).to eq("EAST") 
 		end
 		it "changes direction of robot to west" do
-			expect(robot1.west).to eq([-1,0]) 
+			expect(robot1.west).to eq("WEST") 
 		end
 
 		it "moves the robot" do

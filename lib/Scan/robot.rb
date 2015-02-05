@@ -1,3 +1,4 @@
+#defines the robot and it's orientation in the grid
 class Robot
 
 	def initialize(x,y,dirxn)
@@ -10,26 +11,26 @@ class Robot
 
 	def north
 		@next = [0,1]
-		@dirxn == "NORTH"
-		return @next
+		@dirxn = "NORTH"
+		return @dirxn
 	end
 
 	def south
 		@next = [0,-1]
-		@dirxn == "SOUTH"
-		return @next
+		@dirxn = "SOUTH"
+		return @dirxn
 	end
 
 	def east
 		@next = [1,0]
-		@dirxn == "EAST"
-		return @next
+		@dirxn = "EAST"
+		return @dirxn
 	end
 
 	def west 
 		@next = [-1,0]
-		@dirxn == "WEST"
-		return @next
+		@dirxn = "WEST"
+		return @dirxn
 	end
 
 	def move
@@ -44,5 +45,6 @@ class Robot
 
 	def getDirxn 
 		return @dirxn
+	end
 
 end
